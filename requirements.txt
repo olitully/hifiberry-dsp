@@ -1,5 +1,4 @@
 requests
 pyalsaaudio
-spi
+spidev
 xmltodict
-rpi.gpio

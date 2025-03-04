@@ -46,8 +46,7 @@ setup(
     package_dir={"": "src"},
     install_requires=[
         'xmltodict',
-        'spidev', 'pyalsaaudio', 'requests',
-        'RPi.GPIO'
+        'spidev', 'pyalsaaudio', 'requests'
     ],
     scripts=[
         'bin/dsptoolkit',
@@ -56,7 +55,7 @@ setup(
         'bin/optimizer-client',
         'bin/spdifclockgen'
     ],
-    keywords='audio raspberrypi dsp',
+    keywords='audio radxa dsp',
     zip_safe=False,
     cmdclass={'install': CustomInstall},  # Register the custom install command
 )
