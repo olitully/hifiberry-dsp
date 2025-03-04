@@ -27,7 +27,7 @@ def init_spi():
         # only open the device when not running tests
         import spidev        
         spi = spidev.SpiDev()        
-        spi.open(0, 0)
+        spi.open(3, 0)
         spi.bits_per_word = 8
         spi.max_speed_hz = 1000000
         spi.mode = 0
