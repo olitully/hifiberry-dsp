@@ -1,4 +1,5 @@
 #!/bin/bash
-mraa-gpio set 27 0
-mraa-gpio set 27 1
-mraa-gpio set 27 0
+mraa-gpio set 15 1
+mraa-gpio set 11 0
+mraa-gpio set 11 1
+mraa-gpio get 11
